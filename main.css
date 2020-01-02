@@ -1,2 +1,22 @@
-h1{color:aqua;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
 }
+h1{color:gainsboro;
+}
+body{background:url('assets/c9309d4894c9bcc120128a9445cac35c.jpg')
+no-repeat center center fixed;
+background-size: cover;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.fejlec{width: 480px;
+  max-width: calc(100vw - 10px);
+  margin-top:20px;
+  text-align: center;
+border-top: 1px solid hsla(0, 0%, 30%, .8);}
+.szlogen{}
