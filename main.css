@@ -1,3 +1,4 @@
+@media (min-width:480px);
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +6,12 @@
   font-size: 100%;
 }
 h1{color:gainsboro;
+  width: 100px;
+  max-width: calc(100vw - 10px);
+  margin-top:-250px;
+  text-align: left;
+  font-size: 50px;
+ 
 }
 body{background:url('assets/c9309d4894c9bcc120128a9445cac35c.jpg')
 no-repeat center center fixed;
@@ -14,9 +21,9 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
-.fejlec{width: 480px;
-  max-width: calc(100vw - 10px);
-  margin-top:20px;
-  text-align: center;
-border-top: 1px solid hsla(0, 0%, 30%, .8);}
-.szlogen{}
+h2{font-size:25px;
+text-align: right}
+
+a{color: black;
+text-align: center;
+margin-top: auto}
