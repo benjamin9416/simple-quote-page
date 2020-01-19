@@ -92,12 +92,12 @@ h2 {
 }
 
 a {
-	color:#ADFF2F;
+	color:#8c8e9b;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #545e63;
+	color:#8c8e9b;
 }
 
 /* ==== LAYOUT STYLES ==== */
@@ -114,7 +114,7 @@ pre,table,fieldset,hr,
 .main-header {
 	text-align: center;
 	padding: 1.25rem;
-	color: #fff;
+	color: #F5FFFA;
 	background-color: #22444e;
 }
 @media (min-width: 768px) {
@@ -177,14 +177,14 @@ pre,table,fieldset,hr,
 }
 
 .button:hover {
-	border: 1px solid #b60e63;
+	border: 1px solid #ADFF2F;
 }
 
 .load {
 	display: block;
 	text-align: center;
 	padding: 0.625rem;
-	font-size: 1.25rem;
+	font-size: 2.5rem;
 	color: #8c8e9b;
 	cursor: pointer;
 }
