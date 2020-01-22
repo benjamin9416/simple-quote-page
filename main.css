@@ -44,21 +44,7 @@ table {
 	border-spacing: 0;
 }
 
-/* ==== HELPER COLORS FOR LAYOUT ==== */
 
-/*.main-header {
-  background-color: rgba(255, 248, 53, .3);
-}
-
-.primary-content {
-  background-color: rgba(140, 96, 255, .3);
-}
-
-.post {
-  background-color: rgba(255, 0, 0, .3);
-}*/
-
-/* ==== BASE STYLES ==== */
 
 * {
 	box-sizing: border-box;
@@ -100,7 +86,6 @@ a:hover {
 	color:#8c8e9b;
 }
 
-/* ==== LAYOUT STYLES ==== */
 
 h1,h2,h3,h4,h5,h6,hgroup,
 ul,ol,dd,
@@ -110,7 +95,6 @@ pre,table,fieldset,hr,
     margin-bottom: 1rem;
 }
 
-/* Main Header Styles */
 .main-header {
 	text-align: center;
 	padding: 1.25rem;
@@ -132,7 +116,6 @@ pre,table,fieldset,hr,
 	}
 
 }
-/* Primary Content Wrapper Styles */
 
 @media (min-width: 768px) {
 
@@ -152,7 +135,6 @@ pre,table,fieldset,hr,
 	}
 
 }
-/* Article Styles */
 .post {
 	width: 95%;
 	margin: 0 auto 1rem;
@@ -162,17 +144,16 @@ pre,table,fieldset,hr,
 .picture {
 	width: 100%;
 }
-/* ==== COMPONENT STYLES ==== */
 
 .button {
 	display: inline-block;
 	border: 1px solid #8c8e9b;
 	color: #8c8e9b;
-	border-radius: 10px;
+	border-radius: 50px;
 	padding-right: 5px;
 	padding-left: 5px;
 	margin: 5px;
-	width: 100px;
+	width: 50px;
 	font-family: 'Open Sans', sans-serif;
 }
 
